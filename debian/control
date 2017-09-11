@@ -1,0 +1,12 @@
+Source: ros-r2b3-uncrustify
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-r2b3-ament-cmake-core, ros-r2b3-ros-workspace
+Homepage: https://github.com/bengardner/uncrustify
+Standards-Version: 3.9.2
+
+Package: ros-r2b3-uncrustify
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-r2b3-ros-workspace
+Description: Package a newer version of uncrustify (0.61+, b6593c1, April 14th 2015).
