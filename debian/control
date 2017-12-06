@@ -1,0 +1,12 @@
+Source: ros-ardent-uncrustify
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-ardent-ament-cmake-core
+Homepage: https://github.com/bengardner/uncrustify
+Standards-Version: 3.9.2
+
+Package: ros-ardent-uncrustify
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: Package a newer version of uncrustify (0.61+, b6593c1, April 14th 2015).
