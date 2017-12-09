@@ -18,7 +18,7 @@ tracks:
     patches: null
     release_inc: '7'
     release_repo_url: git@github.com:ros2-gbp/uncrustify-release
-    release_tag: master
+    release_tag: 0.61.20150413
     ros_distro: ardent
     vcs_type: git
     vcs_uri: https://github.com/ament/uncrustify.git
