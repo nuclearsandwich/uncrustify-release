@@ -1,0 +1,12 @@
+Source: ros-bouncy-uncrustify
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-bouncy-ament-cmake-core, ros-bouncy-ros-workspace
+Homepage: https://github.com/bengardner/uncrustify
+Standards-Version: 3.9.2
+
+Package: ros-bouncy-uncrustify
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-bouncy-ros-workspace
+Description: Package a newer version of uncrustify (0.61+, b6593c1, April 14th 2015).
